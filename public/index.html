@@ -13,6 +13,14 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   
     <title>Lezzetli yemek Restaurant</title>
+     <!-- Agregar encabezado de protección contra ClickJacking -->
+  <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'">
+
+  <!-- Agregar encabezado de protección contra la detección del tipo de contenido -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+  <!-- Agregar directiva Content-Security-Policy -->
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self'; object-src 'none'; base-uri 'self'; frame-src 'self'">
   </head>
   <body>
     <div id="root"></div>
