@@ -17,12 +17,12 @@ const Chef = () => (
       
       <div className='app__chef-content'>
         <div className='app__chef-content_quote'>
-          <img src={images.quote} alt="quote" />
-          <p className='p__opensans'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolore tempora aperiam velit beatae ea porro nihil. Praesentium numquam doloremque aperiam voluptatibus necessitatibus at beatae?</p>
+          <img src={images.quote} alt="cita" />
+          <p className='p__opensans'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolore tempora aperiam velit beatae ea porro nihil?</p>
         </div>
 
         <div className='app__chef-sign'>
-          <p>Kemal Atatürk</p>
+          <p>Kemal Ataturk</p>
           <p className='p__opensans'>Chef & Fundador</p>
           <img src={images.sign} alt="firma" />
         </div>

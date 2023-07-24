@@ -20,8 +20,8 @@ const Footer = () => (
 
       <div className="app__footer-links_logo">
         <img src={images.Lezzetliyemek} alt="footer_logo" />
-        <p className="p__opensans">&quot;La mejor manera de encontrarte a ti mismo es perderte al servicio de los demás..&quot;</p>
-        <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} alt="spoon" />
+        <p className="p__opensans">&quot;La mejor manera de encontrarte a ti mismo es perderte al servicio de los demás.&quot;</p>
+        <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} alt='spoon' />
         <div className="app__footer-links_icons">
           <FiFacebook />
           <FiTwitter />
@@ -31,17 +31,18 @@ const Footer = () => (
 
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Horario de trabajo</h1>
-        <p className="p__opensans">Lunes - Viernes:</p>
-        <p className="p__opensans">20:00 - 23:00 pm</p>
-        <p className="p__opensans">Sabado - domingo:</p>
+        <p className="p__opensans">Lunes-Viernes:</p>
+        <p className="p__opensans">20:00 pm - 23:00 pm</p>
+        <p className="p__opensans">Sabado-Domingo</p>
         <p className="p__opensans">20:00 pm - 3:00 am</p>
       </div>
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2021 Lezzetli yemek. Todos los derechos reservados. </p>
+      <p className="p__opensans">2023 Lezzetli yemek. Todos los derechos reservados.</p>
+    </div>
 
-  </div></div>
+  </div>
 );
 
 export default Footer;
